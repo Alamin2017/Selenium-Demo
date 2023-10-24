@@ -1,7 +1,7 @@
-package testCases;
-import drivers.BaseEnv;
+package testcases;
+import driversetup.BaseEnv;
 import org.testng.annotations.Test;
-import pageObjects.Locator;
+import pageobjects.Locator;
 import utils.ElementActions;
 
 public class TestScript extends BaseEnv {

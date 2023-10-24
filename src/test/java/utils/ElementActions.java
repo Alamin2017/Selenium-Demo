@@ -4,7 +4,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
-import static drivers.BaseEnv.driver;
+import static driversetup.BaseEnv.driver;
 public class ElementActions  {
     public static WebElement getElement(By locator)
     {

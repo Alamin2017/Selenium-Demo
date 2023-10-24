@@ -6,7 +6,7 @@
     </listeners>
     <test name="Regression">
         <classes>
-            <class name="testCases.TestScript"></class>
+            <class name="testcases.TestScript"></class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
