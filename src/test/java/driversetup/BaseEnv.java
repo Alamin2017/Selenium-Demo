@@ -5,10 +5,9 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import java.time.Duration;
 public class BaseEnv {
     public static WebDriver driver;
-    public static String browser="firefox";
+    public static String browser="chrome";
     @BeforeMethod
     public void setup() {
         switch (browser)
@@ -25,7 +24,6 @@ public class BaseEnv {
         }
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
     @AfterMethod
     public void teardown() {
