@@ -10,4 +10,5 @@ public class PaymentPageLocator {
     public static By month_expiration_text_field_locator=By.xpath("//input[@placeholder='MM']");
     public static By year_expiration_text_field_locator=By.xpath("//input[@placeholder='YYYY']");
     public static By pay_and_confirm_order_button_locator=By.xpath("//button[@id='submit']");
+    public static By success_message_locator=By.xpath("//p[normalize-space()='Congratulations! Your order has been confirmed!']");
 }

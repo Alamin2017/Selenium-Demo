@@ -21,6 +21,7 @@ public class SignupLoginPageLocator {
     public static By zipcode_locator=By.xpath("//*[@id=\"zipcode\"]");
     public static By mobile_number_locator=By.xpath("//*[@id=\"mobile_number\"]");
     public static By create_account_button_locator=By.xpath("//*[@id=\"form\"]/div/div/div/div[1]/form/button");
+    public static By account_created_text_locator=By.xpath("//b[normalize-space()='Account Created!']");
     public static By continue_button_locator=By.xpath("//*[@id=\"form\"]/div/div/div/div/a");
 
 }

@@ -38,7 +38,6 @@ public class ElementActions  {
         se.selectByValue(value);
     }
     public static String dynamic_email_value(){
-
         return "tania"+Math.random()+"@gmail.com";
     }
 }

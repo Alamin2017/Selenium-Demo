@@ -16,7 +16,6 @@ import org.testng.ITestResult;
 import java.io.File;
 import java.io.IOException;
 import static driversetup.BaseEnv.driver;
-
 public class ListenerTest implements ITestListener {
     ExtentSparkReporter htmlReporter;
     ExtentReports reports;
