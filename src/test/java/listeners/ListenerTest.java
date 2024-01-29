@@ -48,12 +48,10 @@ public class ListenerTest implements ITestListener {
         test = reports.createTest(result.getName());
         String testName=result.getName();
         test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is:" + result.getName(), ExtentColor.RED));
-        try
-        {
+        try{
             test.addScreenCaptureFromPath(takeScreenshot(driver,testName));
         }
-        catch (IOException e)
-        {
+        catch (IOException e){
             throw new RuntimeException(e);
         }
     }

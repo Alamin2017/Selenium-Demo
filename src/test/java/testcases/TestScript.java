@@ -66,4 +66,5 @@ public class TestScript extends BaseEnv {
         //Verify the success message 'Your order has been placed successfully!'
         Assert.assertEquals("Congratulations! Your order has been confirmed!",ElementActions.getText(PaymentPageLocator.success_message_locator));
     }
+
 }
