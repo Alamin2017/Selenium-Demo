@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Testing Web Application">
     <listeners>
-        <listener class-name="listeners.ListenerTest"></listener>
+        <listener class-name="listener.ListenerTest"></listener>
     </listeners>
     <test name="Regression">
         <classes>

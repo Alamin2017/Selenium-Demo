@@ -1,4 +1,4 @@
-package pagelocators;
+package locator;
 import org.openqa.selenium.By;
 public class LandingPageLocator {
     public static By automation_exercise_img_logo_locator= By.xpath("//img[@alt='Website for automation practice']");

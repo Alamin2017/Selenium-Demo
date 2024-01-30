@@ -2,11 +2,11 @@ package testcases;
 import driversetup.BaseEnv;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pagelocators.*;
-import utils.ElementActions;
+import locator.*;
+import utilities.ElementActions;
 public class TestScript extends BaseEnv {
     @Test
-    public void Automation_Test_Scenario() throws InterruptedException {
+    public void Product_Purchase_E2E_Test() throws InterruptedException {
         //Navigate to url http://automationexercise.com
         driver.get("https://automationexercise.com/");
         //Verify that home page is visible successfully

@@ -1,4 +1,4 @@
-package utils;
+package utilities;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -8,12 +8,12 @@ import java.util.List;
 import static driversetup.BaseEnv.driver;
 public class ElementActions  {
     public static WebElement getElement(By locator) {
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         return driver.findElement(locator);
     }
     public static List<WebElement> getElements(By locator) {
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.presenceOfElementLocated(locator));
         return driver.findElements(locator);
     }
