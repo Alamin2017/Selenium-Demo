@@ -14,9 +14,7 @@ public class BaseEnv {
         switch (browser)
         {
             case "chrome":
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless");
-                driver = new ChromeDriver(options);
+                driver = new ChromeDriver();
                 break;
             case "edge":
                 driver=new EdgeDriver();
