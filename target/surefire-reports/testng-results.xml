@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-10T14:42:14 BDT" name="Command line suite" finished-at="2024-02-10T14:43:11 BDT" duration-ms="56326">
+    <groups>
+    </groups>
+    <test started-at="2024-02-10T14:42:14 BDT" name="Command line test" finished-at="2024-02-10T14:43:11 BDT" duration-ms="56326">
+      <class name="testcases.TestScript">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TestScript@f001896]" started-at="2024-02-10T14:42:15 BDT" name="setup" finished-at="2024-02-10T14:42:18 BDT" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Product_Purchase_E2E_Test()[pri:0, instance:testcases.TestScript@f001896]" started-at="2024-02-10T14:42:18 BDT" name="Product_Purchase_E2E_Test" finished-at="2024-02-10T14:43:10 BDT" duration-ms="52286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Purchase_E2E_Test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TestScript@f001896]" started-at="2024-02-10T14:43:10 BDT" name="teardown" finished-at="2024-02-10T14:43:11 BDT" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TestScript -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
