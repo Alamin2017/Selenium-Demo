@@ -37,7 +37,12 @@ public class ElementActions  {
         Select se = new Select(getElement(locator));
         se.selectByValue(value);
     }
+    public static void doDropdownVisibleText(By locator, String value) throws InterruptedException {
+        Select se = new Select(getElement(locator));
+        se.selectByValue(value);
+    }
     public static String dynamic_email_value(){
         return "tania"+Math.random()+"@gmail.com";
     }
 }
+

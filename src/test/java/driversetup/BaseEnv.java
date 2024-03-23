@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 public class BaseEnv {
     public static WebDriver driver;
-    public static String browser="chrome";
+    public static String browser="firefox";
     @BeforeMethod
     public void setup() {
         switch (browser)

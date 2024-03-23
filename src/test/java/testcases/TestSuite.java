@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import locator.*;
 import utilities.ElementActions;
-public class TestScript extends BaseEnv {
+public class TestSuite extends BaseEnv {
     @Test
     public void Product_Purchase_E2E_Test() throws InterruptedException {
         //Navigate to url http://automationexercise.com
@@ -66,4 +66,5 @@ public class TestScript extends BaseEnv {
         //Verify the success message 'Your order has been placed successfully!'
         Assert.assertEquals("Congratulations! Your order has been confirmed!",ElementActions.getText(PaymentPageLocator.success_message_locator));
     }
+
 }
